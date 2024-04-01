@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  background-image: url(./assets/dengo.jpg);
+}
+
+
+a {
+    background-color: transparent;
+    backdrop-filter: blur(1px);
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: none;
+    color: blue;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blinking-link {
+  animation: blink 1s infinite;
+}
+
+.carta {
+  display: block;
+  width: 30vw;
+  background-color: transparent;
+}
+
+h1, p{
+ color: white;
+ font-size: medium;
+ padding-top: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+h1 {
+  text-align: start;
+}
+
+.amor {
+  text-align: end;
+}
+
+div {
+  border: 1px solid rgb(71, 62, 62);
+  box-sizing: border-box;
+  border-radius: 20px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.8);
+  align-items: center;
+}
+
+div {
+    margin-left: 870px;
+    margin-top: 100px;
+}
